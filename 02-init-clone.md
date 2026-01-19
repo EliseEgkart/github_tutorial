@@ -67,7 +67,7 @@ fork는 **GitHub 상에서 저장소를 하나 더 만드는 작업**이라는 �
 ## 용례 (직접 써보자)
 
 ### git init
-![alt text](/img/그림2.png)
+![alt text](img/git-init.png)
 
 ```sh
 git init
@@ -84,7 +84,7 @@ Git이 변경 이력을 관리할 수 있도록 초기화하는 작업이다.
 ---
 
 ### git clone
-![alt text](/img/그림1.png)
+![alt text](img/git-clone.png)
 ```sh
 git clone https://github.com/username/repository.git #<URL>.git
 ```
@@ -100,7 +100,7 @@ git clone을 통해 웹사이트에 존재하는 원격 저장소를
 ---
 
 ### fork
-![alt text](/img/그림3.png)
+![alt text](img/git-fork.png)
 fork를 통해
 타인의 원격 저장소를 자신의 원격 저장소로 복사할 수 있다.
 

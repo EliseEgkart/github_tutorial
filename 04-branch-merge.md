@@ -108,7 +108,7 @@ git merge <branch_name>
 ## 예시
 
 ### 1️⃣ 초기 상태 (공통 커밋만 존재)
-![alt text](/img/1.png)
+![alt text](img/branch-merge-01.png)
 
 하나의 브랜치(main)에서만 개발이 진행된 상태이다.  
 아직 브랜치를 나누지 않았기 때문에 모든 커밋은 하나의 직선적인 히스토리를 가진다.  
@@ -117,7 +117,7 @@ git merge <branch_name>
 ---
 
 ### 2️⃣ test 브랜치 생성
-![alt text](/img/2.png)
+![alt text](img/branch-merge-02.png)
 
 `test` 브랜치를 생성한 상태이다.  
 이 시점에서 `main`과 `test` 브랜치는 **같은 커밋을 가리키고 있지만**,  
@@ -126,7 +126,7 @@ git merge <branch_name>
 ---
 
 ### 3️⃣ test 브랜치에서 작업 및 커밋
-![alt text](/img/3.png)
+![alt text](img/branch-merge-03.png)
 
 `test` 브랜치로 이동한 뒤 코드를 수정하고 커밋을 생성한 상태이다.  
 이 커밋은 `test` 브랜치에만 존재하며,  
@@ -137,7 +137,7 @@ git merge <branch_name>
 ---
 
 ### 4️⃣ main 브랜치에서 별도의 작업
-![alt text](/img/4.png)
+![alt text](img/branch-merge-04.png)
 
 이번에는 `main` 브랜치로 돌아와 다른 수정 작업을 하고 커밋을 생성한 상태이다.  
 결과적으로 `main`과 `test` 브랜치는  
@@ -146,7 +146,7 @@ git merge <branch_name>
 ---
 
 ### 5️⃣ 병합 시 충돌 발생
-![alt text](/img/5.png)
+![alt text](img/branch-merge-05.png)
 
 `main` 브랜치에서 `test` 브랜치를 병합(`git merge test`)하는 과정에서  
 **같은 파일의 같은 부분을 양쪽 브랜치에서 수정**했기 때문에  
@@ -159,7 +159,7 @@ Git이 자동으로 병합하지 못하고 충돌(conflict)이 발생한 상태�
 ---
 
 ### 6️⃣ 충돌 해결 후 병합 완료
-![alt text](/img/6.png)
+![alt text](img/branch-merge-06.png)
 
 충돌이 발생한 파일을 열어:
 - 불필요한 충돌 표시를 제거하고
@@ -169,4 +169,3 @@ Git이 자동으로 병합하지 못하고 충돌(conflict)이 발생한 상태�
 병합이 완료되고 두 브랜치의 작업 결과가 하나로 합쳐진다.
 
 👉 충돌 해결은 실수가 아니라, **협업 및 프로젝트 과정에서 자연스럽게 발생하는 단계**이다.
-

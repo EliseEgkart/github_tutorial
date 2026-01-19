@@ -1,7 +1,7 @@
 # Git 기본 개념
 
 ## Git과 GitHub에 대하여
-![Git flow](img/git_img.png)
+![Git flow](img/git-flow.png)
 
 ### Git이란?
 Git은 소스 코드의 변경 이력을 체계적으로 관리하기 위한 **분산 버전 관리 시스템(DVCS)** 이다.  
@@ -37,7 +37,7 @@ GitHub는 Git을 기반으로 동작한다.
 더 자세한 내용은 [03-commit-history.md](03-commit-history.md)에서 다룬다.  
 여기서는 **어휘와 개념 이해**에 초점을 맞춘다.
 
-![Git repository](img/What-is-Git-repository.webp)
+![Git repository](img/git-repository.webp)
 
 ### repository (repo)란?
 Repository는 프로젝트의 파일과 **변경 이력**을 함께 관리하는 저장 공간이다.  
@@ -63,7 +63,7 @@ GitHub는 대표적인 원격 저장소 제공 서비스이다.
 
 ---
 
-![Git working area](img/working_area.webp)
+![Git working area](img/git-working-area.webp)
 
 ### add란?
 Add는 **작업 디렉토리에서 변경된 파일을 커밋 대상으로 선택하는 단계**이다.  

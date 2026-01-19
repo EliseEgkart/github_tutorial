@@ -14,6 +14,8 @@
 - `git reset`
 - `git revert`
 - `git stash`
+- git commit --amend
+- git merge --abort
 
 ## 예시
 ```sh
