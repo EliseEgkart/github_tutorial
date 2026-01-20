@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
 
-    cout<<"Hello wordl"<<endl;
+    cout<<"라이다 데이터 뿌리기"<<endl;
 
     return 0;
 }
