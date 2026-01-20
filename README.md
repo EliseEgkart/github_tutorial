@@ -14,7 +14,7 @@ README는 전체 인덱스와 간단한 안내를 제공합니다.
 - [06-github-collaboration.md](06-github-collaboration.md) - PR, Issue 등 GitHub 협업 기능
 - [07-undo-troubleshooting.md](07-undo-troubleshooting.md) - 되돌리기, 복구, 문제 해결
 - [99-collaboration-convention-definition.md](99-collaboration-convention-definition.md) - 협업을 위한 컨벤션 정의.
-- [100-practice.md](practice.md) - 기본적인 연습을 위해 몇가지 예제를 제공.
+- [100-practice.md](100-practice.md) - 기본적인 연습을 위해 몇가지 예제를 제공.
 
 ## License & Contribution
 이 레포지토리는 MIT License 하에 공개됩니다.  
